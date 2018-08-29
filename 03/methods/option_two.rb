@@ -9,6 +9,6 @@ def opt_2(studs)
     student_data = gets.chomp.split(',')
     print "#{student} #{student_data}\n\n"
   else
-    "El alumno #{student} no se encuentra en nuestra lista.\n\n"
+    print "#{student} no existe en la lista de alumnos.\n\n"
   end
 end
