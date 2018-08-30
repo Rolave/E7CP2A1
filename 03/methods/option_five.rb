@@ -2,5 +2,6 @@
 # hint: Generar un array con las comunas, eliminar repeticiones. Considerar que pueden haber nombres escritos con mayúscula y minúscula.
 def opt_5(studs)
   comunas = studs.map{ |_key, value| value[:comuna].downcase.capitalize }.uniq
-  comunas.each { |comuna| puts comuna }
+  comunas.each { |comuna| print "#{comuna}.\n" }
+  print "\n"
 end

@@ -7,6 +7,7 @@ require_relative 'methods/option_five.rb'
 require_relative 'methods/option_six.rb'
 require_relative 'methods/option_seven.rb'
 require_relative 'methods/option_eight.rb'
+require_relative 'methods/option_nine.rb'
 
 students = {
   'Alejandra' => {edad: 29, comuna: 'La Florida', genero: 'F'},
@@ -53,9 +54,9 @@ while option != 10
     when 7
       opt_7 students
     when 8
-      opt_7 students
+      opt_8 students
     when 9
-      opt_7 students
+      opt_9 students
     when 10
       print "Salir de la aplicación\n\n"
     else
