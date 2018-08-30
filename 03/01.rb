@@ -25,8 +25,8 @@ Selecciona una opción
   1. Agregar alumno
   2. Editar datos alumno
   3. Eliminar alumno
-  4. Mostrar lista de alumnos
-  5. Muestra las comunas de los alumnos
+  4. Mostrar la cantidad de personas ingresadas
+  5. Mostrar las comunas de los alumnos
   6. Mostrar lista de alumnos entre 20 y 25 años de edad
   7. Mostrar suma de todas las edades de los alumnos
   8. Mostrar promedio de edad entre los alumnos
